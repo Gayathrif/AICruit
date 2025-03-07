@@ -1,4 +1,4 @@
-🌟 AICruit - AI-Powered Job Recruitment Platform
+# 🌟 AICruit - AI-Powered Job Recruitment Platform
 🚀 Overview
 AICruit is an AI-powered job recruitment application designed to simplify and enhance the hiring process. The platform enables job seekers to explore job listings effortlessly while providing a seamless experience with a dark/light mode toggle.
 
