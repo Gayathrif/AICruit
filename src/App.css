@@ -1,5 +1,4 @@
-/* Global Styles */
-* {
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +7,7 @@
 
 body {
   background-color: white;
-  color: black;
+  color: white;
   transition: background-color 2s ease-in-out, color 0s ease-in-out;
   display: flex;
   justify-content: center;
@@ -33,22 +32,26 @@ body {
 .app-container {
   text-align: center;
   width: 100%;
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 40px;
-  border-radius: 15px;
+  max-width: 800px;
+  margin:0px auto;
+  padding: 50px;
+  border-radius: 30px;
   background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 5, 0.15);
+  backdrop-filter: blur(50px);
+  border: 5px solid #007bff;
 }
 
 /* Header */
 .site-title {
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #007bff;
   margin-bottom: 20px;
   text-transform: uppercase;
+  border-bottom: 3px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 /* Toggle Button */
@@ -63,6 +66,7 @@ body {
   cursor: pointer;
   margin-bottom: 25px;
   transition: all 2s ease-in-out;
+  border: 2px solid #0056b3;
 }
 
 .toggle-btn:hover {
@@ -82,6 +86,8 @@ body {
   width: 70px;
   height: 70px;
   filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  border: 2px solid #333;
+  border-radius: 50%;
 }
 
 /* Job Listings */
@@ -96,6 +102,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   transition: all 0.3s ease-in-out;
+  border: 2px solid #ccc;
 }
 
 .card:hover {
@@ -111,6 +118,7 @@ body {
   border-radius: 10px;
   font-weight: bold;
   transition: all 0.3s ease-in-out;
+  border: 2px solid #007bff;
 }
 
 .job:hover {
@@ -127,6 +135,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  border: 2px solid #218838;
 }
 
 .apply-btn:hover {
